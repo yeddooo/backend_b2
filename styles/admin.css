@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #EAEAEA;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+
+.container {
+    width: 100%;
+    height: 75px;
+    background-color: #cecaca;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+}
+
+.navbar {
+    width: 85%;
+    top: 0;
+}
+
+.navbar ul {
+    display: flex;
+    height: 75px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar li,
+.a {
+    font-size: 30px;
+    margin: 10px;
+    font-weight: bolder;
+}
+
+.text{   
+    padding: 10px;
+}
+
+.text .row-no-gutters{
+    margin-top: 90px;
+}
+
+
+
+
+/* ปรับขนาด navbar เพื่อให้มีพื้นที่ในการแสดงข้อมูลในหน้าจอขนาดเล็ก */
+.navbar {
+    padding: 10px;
+}
+
+/* ปรับขนาดตารางให้เต็มพื้นที่ของหน้าจอ */
+#dtVerticalScrollExample {
+    width: 100%;
+}
+
+/* ปรับขนาดขอบตาราง */
+.text .table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+/* ปรับขนาดขอบกรอบของแถวและเซลล์ */
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* ปรับสีพื้นหลังแถว header */
+.thead-dark {
+    background-color: #343a40;
+    color: white;
+}
+
+/* ปรับขนาดปุ่มและตำแหน่ง */
+button {
+    padding: 8px;
+    margin-top: 10px;
+}
+
+/* เพิ่มกล่องข้อความสำหรับแสดง alert */
+.alert-box {
+    background-color: #f2f2f2;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    margin-top: 10px;
+}
+button {
+    padding: 5px 10px;
+    margin: 15px;
+    margin-left: 0;
+    font-size: 20px;
+    color: white;
+    background-color: #9D9999;
+    border-radius: 6px;
+    border-color: #9D9999;
+}
+
+@media only screen and (max-width: 901px) {
+    th {
+        padding: 3px;
+        font-size: 19px;
+    }
+
+    td {
+        padding: 25px;
+        font-size: 19px;
+    }
+    
+   button{
+    font-size: 19px;
+   }
+}
+
+@media only screen and (max-width: 839px) {
+    th {
+        padding: 3px;
+        font-size: 14px;
+    }
+
+    td {
+        padding: 25px;
+        font-size: 14px;
+    }
+        button {
+            font-size: 14px;
+        }
+
+}
+
+@media only screen and (max-width: 626px) {
+    th {
+        font-size: 12px;
+    }
+
+    td {
+        padding: 15px;
+        font-size: 12px;
+    }
+        button {
+            font-size: 12px;
+        }
+
+}
